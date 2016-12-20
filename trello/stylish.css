@@ -1,0 +1,25 @@
+.list {
+	background: rgba(255, 255, 255, .3333) !important;
+}
+.list-card {
+	background: rgba(255, 255, 255, .6667) !important;
+}
+.list-header-num-cards,
+.open-card-composer,
+.list-header-name {
+	color: rgba(255, 255, 255, .6667) !important;
+	text-transform: uppercase !important;
+	font-weight: normal !important;
+}
+.list-header-num-cards,
+.open-card-composer {
+	font-size: .8em !important;
+}
+.card-label {
+	-webkit-box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.23);
+	-moz-box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.23);
+	box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.23);
+}
+.list-header {
+	//background: rgba(0,0,0,.2) !important;
+}
