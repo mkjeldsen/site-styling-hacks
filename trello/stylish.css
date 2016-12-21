@@ -16,10 +16,18 @@
 	font-size: .8em !important;
 }
 .card-label {
-	-webkit-box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.23);
-	-moz-box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.23);
 	box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.23);
 }
-.list-header {
-	//background: rgba(0,0,0,.2) !important;
+.open-card-composer:hover {
+	background: rgba(255, 255, 255, .1);
+	text-decoration: none !important;
+	-webkit-transition-delay: 0s;
+	        transition-delay: 0s;
+	-webkit-transition-duration: 0.4s;
+	        transition-duration: 0.4s;
+	-webkit-transition-property: all;
+	transition-property: all;
+	-webkit-transition-timing-function: ease;
+	        transition-timing-function: ease;
+	box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
 }
