@@ -1,0 +1,13 @@
+/*
+	Mozilla Format
+	Import into Stylish
+*/
+@-moz-document domain("tweetdeck.twitter.com") {
+a[data-recipient-ids*="16361893"],
+article a[href*="twitter.com/kjeldsen"] {
+	background:gold;
+	color:black;
+	font-weight:bold;
+	padding: 3px 10px;
+}
+}
