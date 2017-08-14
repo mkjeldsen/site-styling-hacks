@@ -1,0 +1,16 @@
+/*
+	Mozilla Format
+	Import into Stylish
+*/
+@-moz-document domain("www.washingtonpost.com") {
+html body,
+html.drawbridge-up,
+html.drawbridge-up #pb-root,
+html.drawbridge-up body {
+	overflow: visible !important;
+}
+html body #drawbridge-root {
+	display: none !important;
+	visibility: hidden !important;
+}
+}
