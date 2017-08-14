@@ -1,0 +1,60 @@
+/*
+	Mozilla Format
+	Import into Stylish
+*/
+@-moz-document domain("trello.com") {
+.list {
+	background: rgba(255, 255, 255, .3333) !important;
+}
+.list-card {
+	background: rgba(255, 255, 255, .6667) !important;
+}
+.list-header-num-cards,
+.open-card-composer,
+.list-header-name {
+	color: rgba(255, 255, 255, .6667) !important;
+	text-transform: uppercase !important;
+	font-weight: normal !important;
+}
+.list-header-num-cards,
+.open-card-composer {
+	font-size: .8em !important;
+}
+.card-label {
+	-webkit-box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.23);
+	-moz-box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.23);
+	box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.23);
+}
+.open-card-composer:hover {
+	background: rgba(255, 255, 255, .1);
+	text-decoration: none !important;
+	transition-delay: 0s;
+	transition-duration: 0.4s;
+	transition-property: all;
+	transition-timing-function: ease;
+	box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+.description-content:hover,
+.list-card:hover {
+	transition-delay: 0s;
+	transition-duration: 0.4s;
+	transition-property: all;
+	transition-timing-function: ease;
+	box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+.description-content h1,
+.description-content h2,
+.description-content h3,
+.description-content h4 {
+	text-transform: uppercase;
+}
+.description-content h2 {
+	font-size: 1em;
+}
+.description-content h3 {
+	font-size: .9em;
+}
+.description-content h4 {
+	font-size: .75em;
+}
+}
