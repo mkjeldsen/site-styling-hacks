@@ -59,4 +59,8 @@
 .description-content h4 {
 	font-size: .75em;
 }
+a.mod-disable {
+	background: red;
+	color: white;
+}
 }
