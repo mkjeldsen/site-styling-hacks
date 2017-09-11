@@ -1,0 +1,9 @@
+/*
+	Mozilla Format
+	Import into Stylish
+*/
+@-moz-document domain("inbox.google.com") {
+.O-cB {
+	background: rgba(102,51,153,.3) !important;
+}
+}
